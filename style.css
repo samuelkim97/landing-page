@@ -1,0 +1,38 @@
+header,
+.title-section,
+.info-section,
+.quote,
+.sign-up {
+	/* border: 1px solid red; */
+	padding: 0 15%;
+}
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #1f2937;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	/* height: 60px; */
+}
+
+.header-link {
+	display: flex;
+	align-items: center;
+}
+
+.header-link ul {
+	display: flex;
+	gap: 2rem;
+}
+.header-link li {
+	list-style: none;
+}
+.header-btn {
+	flex: 1;
+}
