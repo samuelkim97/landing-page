@@ -11,6 +11,7 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -18,7 +19,6 @@ header {
 	color: white;
 	display: flex;
 	justify-content: space-between;
-	/* height: 60px; */
 }
 
 .header-link {
@@ -35,4 +35,45 @@ header {
 }
 .header-btn {
 	flex: 1;
+}
+
+.title-section {
+	background-color: #1f2937;
+	display: flex;
+	align-items: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	height: 60vh;
+}
+
+#food-img {
+	width: 100%;
+}
+
+.title-right-content,
+.title-left-content {
+	width: 50%;
+}
+
+.title-left-content {
+	color: white;
+}
+
+.title-left-content h1 {
+	font-size: 4rem;
+	margin: 0;
+}
+.title-left-content p {
+	font-size: 1.5rem;
+}
+
+.sign-up-btn {
+	background-color: #3882f6;
+	color: white;
+	box-shadow: 0px 0px 0px transparent;
+	border: 0px solid transparent;
+	text-shadow: 0px 0px 0px transparent;
+	font-size: 1.5rem;
+	padding: 0.5rem 2.5rem;
+	border-radius: 10px;
 }
