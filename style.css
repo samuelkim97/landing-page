@@ -127,3 +127,29 @@ header {
 .quote-author {
 	font-size: 1.5rem;
 }
+
+/* SIGN UP SECTION */
+.sign-up {
+	height: 50vh;
+	display: flex;
+	align-items: center;
+}
+
+.sign-up-container {
+	background-color: #3882f6;
+	width: 100%;
+	border-radius: 10px;
+	padding: 1rem;
+	color: white;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10rem;
+}
+
+.small-btn {
+	border: 2px solid white;
+	padding: 0.5rem;
+	height: 50px;
+}
