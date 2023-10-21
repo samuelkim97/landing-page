@@ -106,3 +106,24 @@ header {
 .info-container p {
 	text-align: center;
 }
+
+/* QUOTE SECTION */
+.quote-section {
+	background-color: #e5e7eb;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.quote,
+.quote-author {
+	text-align: center;
+}
+
+.quote {
+	font-size: 2rem;
+	font-style: italic;
+}
+.quote-author {
+	font-size: 1.5rem;
+}
